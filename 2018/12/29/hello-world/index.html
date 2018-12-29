@@ -166,6 +166,12 @@
     
     <div style="text-align:center;">
         <button class="btn" id="load-disqus" onclick="disqus.load();">Disqus Comments</button>
+        <script type="text/javascript">
+            $(document).ready( function() {
+            // 자동 실행 할 javascript 함수 또는 코드를 넣는다.
+            disqus.load();
+          });
+        </script>
     </div>
       <div id="disqus_thread">
         <noscript>
